@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Spense Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <p>To celebrate Spense's launch, we will be waiving all fees for the entir month of April.
+                <a href="">You will be receiving 100% of the earnings.</a>
+            </p>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="logo">
+                        <a href="">spense.</a>
+                    </div>
+                    <ul class="main-menu">
+                        <li><a href="">Business</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Features</a></li>
+                    </ul>
+                    <ul class="main-menu">
+                        <li><a href="">Login</a></li>
+                        <li><a href="" class="button">Get Started</a></li>
+                    </ul>
+                    <div class="mobile-menu">
+                        <button id="menuBtn"><img src="assets/Hamburger Menu.svg"></button>
+                        <div class="dropdown-menu" id="mmenu">
+                            <ul>
+                                <li><a href="">Business</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="main-hero">
+                <div class="hero-content">
+                    <h1>Share your unfiltered thoughts. Get paid.</h1>
+                    <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.</p>
+                    <ul>
+                        <li>Receive 99% off the earnings.</li>
+                        <li>Get paid via Debit Card, ACH, or PayPal.</li>
+                        <li>Withdraw your earnings anytime.</li>
+                    </ul>
+                    <form action="">
+                        <input type="email" name="" id="" class="form-control" placeholder="john@example.com">
+                        <button type="submit" class="button">Get Started</button>
+                    </form>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/Hero Image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-section">
+        <div class="container">
+            <div class="social-media">
+                <img src="Assets/Facebook Logo.png" alt="Facebook">
+                <img src="Assets/Dribbble Logo.png" alt="Dribbble">
+                <img src="Assets/Youtube Logo.png" alt="Youtube">
+                <img src="Assets/Pinterest Logo.png" alt="Pinterest">
+                <img src="Assets/Twitter Logo.png" alt="Twitter">
+                <img src="Assets/Reddit Logo.png" alt="Reddit">
+                <img src="Assets/Google Logo.png" alt="Google">
+                <img src="Assets/Slack Logo.png" alt="Slack">
+            </div>
+            <div class="gray-section">
+                <div class="gray-content">
+                    <h2>Secure you money <br> with Escrow</h2>
+                    <p>Spense uses Escrow to secure all the payments. We believe Escrow offers the highest level of security for your payments, so you never need to worry about scams.</p>
+                    <a href="">Learn more about Escrow <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="gray-mockup">
+                    <img src="assets/Phone_Mockup_m.png" alt="Phone Mockup">
+                </div>
+            </div>
+            <div class="text-editor-section">
+                <div class="editor-img">
+                    <img src="assets/Text Editor.png" alt="Text Editor">
+                </div>
+                <div class="editor-content">
+                    <h2>A text editor like no other.</h2>
+                    <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
+                    <a href="">Text Editor Live Demo <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div class="company-info">
+                    <a href="" class="footer-logo">Spense.</a>
+                    <p>Spense is an open platform for individuals to share their unfiltered thoughts.
+                        Discuss the topics you love, and get paid for doing just that.</p>         
+                </div>
+                <div class="sitemap">
+                    <h3>Sitemap</h3>
+                    <ul>
+                        <li><a href="">Homepage</a></li>
+                    </ul>
+                </div>
+                <div class="resourse">
+                    <h3>Resourse</h3>
+                    <ul>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Customers</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="opportunities">
+                    <h3>Opportunities</h3>
+                    <ul>
+                        <li><a href="">Jobs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+let btn = document.getElementById('menuBtn');
+let menu = document.getElementById('mmenu');
+menu.style.display = 'none';
+btn.addEventListener('click', mobilemenu);
+function mobilemenu(){
+    console.log(menu);
+    if(menu.style.display == 'none'){
+        menu.style.display = 'block';
+    }else if(menu.style.display == 'block'){
+        menu.style.display = 'none';
+    }
+    //alert ("Hello World!");
+}
+</script>
+</html>
